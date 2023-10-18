@@ -60,24 +60,6 @@ hr {
   justify-content: center;
   gap: 10px;
 }
-.authors div {
-  min-width: 200px;
-  flex: 1 0 30%;
-  text-align: center;
-}
-.authors .google::after {
-  content: "1";
-  vertical-align: super;
-  font-size: smaller;
-}
-.authors .google-equal::after {
-  content: "1*";
-  vertical-align: super;
-  font-size: smaller;
-}
-.authors .aff {
-  font-size: 90%;
-}
 
 .fig-teaser {
   /* display: block; */
@@ -291,9 +273,13 @@ textarea.citation {
   padding: 2px 4px;
   font-weight: 600;
 }
+
 .audio td {
   text-align: center;
+
 }
+
+audio { width: 250px; display: block; }
 
 .transcript td {
   text-align: center;
